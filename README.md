@@ -17,10 +17,10 @@ Then run `recipe[gitlab]`.
 
 # Recipes
 ## user
-Sets up the system user for gitlab.
+Sets up the system user for Gitlab.
 
 ## database
-Installs and configures the database used.
+Installs and configures the database for Gitlab.
 
 ## default
 The default recipe includes the `user` and `database` recipes and configures the rest of gitlab.
