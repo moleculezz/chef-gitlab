@@ -10,8 +10,8 @@ Has only been tested on Ubuntu 13.04
 
 # Usage
 
-Change the default attribute values 'node["gitlab"]["email"]' and 'node["gitlab"]["fqdn"]'.
-Then run 'recipe[gitlab]'.
+Change the default attribute values `node["gitlab"]["email"]` and `node["gitlab"]["fqdn"]`.
+Then run `recipe[gitlab]`.
 
 # Attributes
 
