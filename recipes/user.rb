@@ -14,10 +14,3 @@ user node['gitlab']['user'] do
   shell "/bin/bash"
   supports :manage_home => true
 end
-
-## temporary hack for git clone issue
-group "sudo" do
-  action :modify
-  members "git"
-  append true
-end
